@@ -1,0 +1,34 @@
+.goods_screening{
+	position: fixed;
+	top:0px;
+	background: rgba(99, 94, 94, 0.3);
+	width: 100%;
+	z-index:999,
+}
+.goods_screening div{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.goods_mian{
+	width:100%;
+	padding-top:200px;
+	display: flex;
+	height:auto;
+	align-items: center;
+	background-color: #b3d4db;
+	flex-wrap:wrap;
+}
+.goods_main_card{
+	width:200px;
+	height:200px;
+	background:#FFF;
+	margin:20px 30px 40px;
+	cursor:pointer;
+}
+.goods_main_card_text{
+	position:absolute;
+	bottom:0px;
+	background:#FFF;
+	text-align: center;
+	width:100%;
+}

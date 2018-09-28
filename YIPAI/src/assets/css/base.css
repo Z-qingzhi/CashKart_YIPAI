@@ -1,0 +1,66 @@
+*, body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, form, fieldset, input, select, textarea, blockquote, th, td, dl, ul, dt, dd, nav {
+	margin: 0;
+	padding: 0;
+	// font-family: "Arial" ,  "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+html,body{
+	height:100%;
+	width:100%;
+-webkit-tap-highlight-color:transparent;
+}
+p{
+	text-align: left;
+}
+input:focus { outline: none;}
+#app{
+	height:100%;
+}
+.clear{
+	width:0px !important;
+	height:0px !important;
+	margin:0px !important;
+	padding:0px !important;
+	clear:both;
+}
+.middleBox{
+	width:817px;
+	margin:0 auto;
+}
+.pl0{
+	padding-left:0px !important;
+}
+.pr{
+	position:relative;
+}
+.dsp{
+	display:none;
+}
+.mint-indicator-wrapper{
+	z-index: 99999999;
+}
+
+@media screen and (max-width: 500px) {
+	.middleBox{
+		width:100%;
+		margin:0 auto;
+	}
+	
+}
+@media screen and (min-width: 500px) {
+	.mint-msgbox{
+		width:320px !important;
+	}
+	.mint-msgbox-btn{
+		cursor:pointer;
+	}
+	
+}

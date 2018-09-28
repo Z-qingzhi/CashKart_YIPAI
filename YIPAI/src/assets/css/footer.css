@@ -1,0 +1,122 @@
+	.footer {
+		background: #252525;
+		padding: 42px 0px 57px;
+		color: #fff;
+	}
+	
+	.footer_nav li {
+		float: left;
+		padding: 0px 17px;
+		border-right: 1px solid #fff;
+		height: 12px;
+		line-height: 12px;
+	}
+	
+	.lastList {
+		border-right: 0px solid #fff !important;
+	}
+	
+	.footer_nav li a {
+		color: #fff;
+	}
+	
+	.message {
+		margin-top: 29px;
+	}
+	
+	.message_box .message_box_car {
+		float: left;
+	}
+  .message_box_car{
+    position: relative;
+  }
+  .message_box_car_ico{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    position: absolute;
+    left:0px;
+    top: -2px;
+  }
+  .message_box_car_text{
+    margin-left:30px;
+    margin-right:37px;
+    font-family:'PingFangSC-Regular';
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+  }
+  .mail{
+    background:url('../images/mail.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .number{
+    background:url('../images/number.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .facebook{
+    background:url('../images/facebook.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .twitter{
+    background:url('../images/twitter.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  .message_box_car a{
+    color:#fff;
+  }
+  @media screen and (max-width: 832px) {
+      .middleBox{
+        width:100%;
+      }
+      .message{
+          margin-top: 11px;
+      }
+      .message_box_car{
+        margin-top:18px;
+      }
+  }
+  @media screen and (max-width: 500px) {
+    .footer_nav{
+      display:none;
+    }
+    .message_box_car_ico{
+      width:0.57971014rem;
+      height:0.57971014rem;
+      
+    }
+    .message_box_car{
+      width:50%;
+    }
+    .message_box_car_text{
+      font-size: 0.31400966rem;
+      margin-left: 1.28019324rem;
+      margin-right: 0px;
+      text-align: left;
+    }
+    .message_box{
+      padding-left:0.4589372rem;
+    }
+    .footer {
+        padding: 0.62801932rem 0px 1.06280193rem;
+    }
+    .message_box_car_ico {
+        left: 23px;
+        top: -2px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .message_box_car_text{
+        font-size: 0.33816425rem;
+        margin-left: 1.28019324rem;
+        margin-right: 0px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .message_box_car_ico {
+          left: 20px;
+          top: -1px;
+      }
+  }

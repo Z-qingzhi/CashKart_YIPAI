@@ -1,0 +1,393 @@
+.check {
+	padding: 0px 0.38647343rem;
+	/*padding-top: 0.33816425rem;*/
+	height: 0.57971014rem;
+}
+
+.checkBox2 {
+	display: inline-block;
+	width: 0.57971014rem;
+	height: 0.57971014rem;
+	background: url(../images/check.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.checkText {
+	float: left;
+	margin-top: 0.09661836rem;
+	margin-left: 0.74879227rem;
+	margin-right: 0.53140097rem;
+	font-size: 15px;
+	color: #2E3B3F;
+	letter-spacing: 0;
+}
+
+.ypMain h1 {
+	font-weight: 200;
+	color: #2E3B3F;
+	letter-spacing: 0;
+	padding-left: 0.48309179rem;
+	margin: 0.43478261rem 0rem 0rem;
+	font-family: 'Arial-BoldMT';
+	font-size: 0.53140097rem;
+	padding-top: 0.16908213rem;
+	padding-bottom: 0.36231884rem;
+	font-weight: 800;
+    text-align: left;
+}
+
+.ypMain {
+	margin-bottom: 1.44927536rem;
+	margin-top: 0px;
+}
+
+.MBLogo2 {
+	width: 2.22222222rem;
+	height: 0.72463768rem;
+	margin: 0 auto;
+	/*background: url(../images/logo3.png) no-repeat;*/
+	background-size: 100% 100%;
+	position: relative;
+	top: 10px;
+	z-index: 999999;
+}
+
+.menuZZ {
+	border-bottom: 1px solid #F6F6F6;
+}
+
+.phoneMsg {
+	font-size: 14px;
+	color: #B2B2B2;
+	/*margin:0.36231884rem 0.57971014rem 0.4589372rem 0.57971014rem;*/
+	margin-left: 0.57971014rem;
+	margin-top: 0.19323671rem;
+}
+
+.lastMsg {
+	margin-top: 4px;
+}
+
+.TextColor {
+	color: #22B3DF;
+	text-decoration: underline;
+}
+
+.termsText {
+	font-size: 0.28985507rem;
+}
+
+.checkRight {
+	width: calc(100% - 0.72463768rem);
+	float: left;
+	font-size: 0.28985507rem;
+	color: #555555;
+	margin-left: 0.48309179rem;
+}
+
+.checkLeft {
+	width: 30px;
+	float: left;
+	position: relative;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.MsgPd {
+	margin: 0.19323671rem 0.53140097rem 0px;
+	position: relative;
+}
+
+.MsgText {
+	font-family: 'PingFangSC-Regular';
+	font-size: 13px;
+	color: #2E3B3F;
+	letter-spacing: 0;
+	line-height: 18px;
+	display: inline-block;
+}
+
+.MsgList {
+	font-family: 'UniversLTStd-Bold';
+	font-size: 6px;
+	color: #F04D4D;
+	letter-spacing: 0;
+	position: absolute;
+	top: 0px;
+	left: -7px;
+}
+
+.checkBox {
+	margin-top: 0.07246377rem;
+}
+
+.profession {
+	margin-bottom: 0.09661836rem;
+}
+
+.loginBtn {
+	width: 9.22705314rem;
+	height: 1.54589372rem;
+	line-height: 1.54589372rem;
+	font-weight: 800;
+}
+
+.mt-70 {
+	margin-top: 0.96618357rem;
+}
+
+.bannar {
+	width: 100%;
+	height: 220px;
+	background: url(../images/bannar.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.AgreementText {
+	padding: 0px 0.38647343rem;
+	font-family: 'PingFangSC-Regular';
+	font-size: 12px;
+	color: #2E3B3F;
+	letter-spacing: 0;
+	margin-bottom: 24px;
+}
+
+.formControl {
+    display: block;
+    width: 100%;
+    height: 0.89371981rem;
+    padding: 0.09661836rem 0.24154589rem;
+    font-size: 0.36231884rem;
+    line-height: 1.42857143;
+    color: #555;
+    border-radius: 4px;
+    border: 0px solid #ffffff;
+    border-radius: 2px;
+    border-bottom: 1px solid #F5F5F5;
+    box-sizing: border-box;
+}
+
+.inputLeftText {
+    line-height: 0.62801932rem;
+    font-size: 0.36231884rem;
+    color: #555555;
+    letter-spacing: 0;
+    padding: 0px 0.38647343rem;
+    font-family: 'ArialMT';
+    font-size: 0.36231884rem;
+    color: #2E3B3F;
+    letter-spacing: 0;
+    text-align: left;
+}
+.inputRight {
+    width: calc(100% - 0.77294686rem);
+    float: left;
+}
+.loginInputType {
+    background: #F4F4F4;
+    border-radius: 4px;
+    height: 1.1352657rem;
+    border-bottom: 0px solid #F5F5F5;
+    margin: 0px 0.38647343rem;
+    border: 1px solid #EFEFEF;
+}
+.inputBoxType {
+    width: calc(100% - 0px);
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 24px;
+}
+.codeInput {
+    width: 5.70048309rem;
+}
+.sendCodeBtn {
+    line-height: 1.1352657rem;
+    background: #b5b5b5;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 6.57004831rem;
+    top: 0.0rem;
+    width: 3.04347826rem;
+    height: 1.1352657rem;
+}
+.btnBlue {
+    background: #22B3DF;
+    border-radius: 4px;
+}
+.loginBtn {
+    width: 9.03381643rem;
+    height: 1.54589372rem;
+    line-height: 1.54589372rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.43478261rem;
+    border-radius: 4px;
+}
+.errorInput {
+    background: #f9ecec !important;
+}
+input::-webkit-input-placeholder {
+     // font-size:12px;
+     color:#B2B2B2;
+}
+.bgOrange {
+    background: #FDAC30 !important;
+}
+
+
+
+@media screen and (min-width: 500px) {
+	.checkBox {
+		margin-top: 1px;
+	}
+	.termsText {
+		font-size: 14px;
+	}
+	.checkBox2 {
+		width: 20px;
+		height: 20px;
+	}
+	.MBLogo2 {
+		/*display:none;*/
+		height: 90px;
+	}
+	.ypMain {
+		margin-bottom: 140px;
+		margin-top: 0px;
+	}
+	input:focus {
+		outline: none;
+		border: 1px solid #1DA3CC !important;
+	}
+	.ypMain h1 {
+		font-size: 36px;
+		margin-top: 26px;
+		margin-bottom: 26px;
+	}
+	.LogininText {
+		display: block;
+		text-align: left;
+	}
+	.inputBoxType {
+		/*height:96px;*/
+		width: 369px;
+		/*border-bottom: 0px solid #F1F1F1; */
+	}
+	.inputRight input {
+		width: 370px;
+		height: 54px;
+	}
+	.codeInput {
+		width: 234px !important;
+	}
+	.inputLeftText {
+		height: 30px;
+		width: 100%;
+		line-height: 30px;
+		font-size: 16px;
+		color: #555555;
+	}
+	.formControl {
+		background: #F5F5F5;
+		border: 1px solid #EFEFEF;
+		border-radius: 2px;
+		padding-left: 10px;
+		font-size: 14px;
+	}
+	.loginInputType {
+		margin: 0px;
+	}
+	.inputRight {
+		width: 100%;
+		margin-left: 26px;
+		/*margin-bottom: 20px;*/
+		height: 54px;
+	}
+	.loginBtn {
+		width: 304px;
+		height: 66px;
+		line-height: 66px;
+		cursor: pointer;
+		margin: 0px 0px 0px 26px;
+		font-size: 22px;
+	}
+	.checkText {
+		font-size: 14px;
+		margin-top: 3px;
+		margin-left: 25px;
+	}
+	.forgetPasswordText {
+		/*margin:0px 0px 0px 26px;*/
+		text-align: center;
+		width: 369px;
+	}
+	.mt-70 {
+		margin-top: 40px;
+	}
+	.sendCodeBtn {
+		width: 120px;
+		height: 48px;
+		line-height: 48px;
+		top: 3px;
+		left: 250px;
+		cursor: pointer;
+	}
+	.MsgText {
+		width: 369px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.MsgList {
+		top: 0px;
+		left: 2px;
+	}
+	.MsgPd {
+		margin-left: 16px;
+	}
+	.check {
+		padding: 0px 26px;
+	}
+	.phoneMsg {
+		margin-left: 26px;
+	}
+	.AgreementText {
+		padding: 0px 0px 0px 26px;
+		font-family: 'PingFangSC-Regular';
+		font-size: 12px;
+		color: #2E3B3F;
+		letter-spacing: 0;
+		width: 374px;
+		margin-bottom: 24px;
+	}
+	.bannar {
+		width: 480px;
+		height: 220px;
+		background: url(../images/bannar2.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	.bannarBg {
+		width: 100%;
+		height: 220px;
+		background: url(../images/bannarBg.png) no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		z-index: -1;
+	}
+	.inputBoxType {
+	    width: calc(100% - 0px);
+	    background: #FFFFFF;
+	    border-radius: 2px;
+	    margin-bottom: 24px;
+	}
+
+}

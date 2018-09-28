@@ -1,0 +1,876 @@
+	body{
+		font-family: 'Arial-BoldMT';
+	}
+	.advertising{
+		height:697px;
+		width:100%;
+	}
+	.advertising_bg{
+		background:url('../images/advertising.jpg') no-repeat;
+		// background-size: 100% 100%;
+		background-size: cover;
+	}
+	
+	.homeTitle{
+		padding-top:40px;
+		padding-bottom:30px;
+		margin:0px;
+		text-align: left;
+		font-size: 22px;
+		color: #000000;
+		letter-spacing: 0;
+		font-family: 'Arial-BoldMT';
+	}
+
+	//Our Service
+	.Service_car .Service_car_box{
+		float:left;
+		width:220px;
+		margin-left:33px;
+		// background:yellow;
+		padding:35px 12px 5px 18px;
+		background: #FFFFFF;
+		box-shadow: 0 2px 6px 0 rgba(0,0,0,0.10);
+		border-radius: 2px;
+		min-height: 450px;
+		border-sizing:border-box;
+		margin:10px 0px;
+	}
+	.Service_car_ico{
+		width:97px;
+		height:112px;
+		// background:red;
+		margin:0 auto;
+	}
+	.Service_car_title{
+		font-size: 18px;
+		color: #000000;
+		letter-spacing: 0;
+		margin-top:22px;
+		font-weight: 800;
+	    font-family: 'Arial-BoldMT';
+	    text-align: left;
+	}
+	.Service_car_text{
+		margin-top:22px;
+		font-family: 'ArialMT';
+		font-size: 16px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 27px;
+		text-align: left;
+	}
+	.Speedy_Processing{
+		background:url('../images/Speedy_Processing.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.Simple_Operation{
+		background:url('../images/Simple_Operation.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.Cost_Transparency{
+		background:url('../images/Cost_Transparency.png') no-repeat;
+		background-size: 100% 100%;
+	}
+
+	// Testimonials
+	.Testimonials_title{
+		font-family: 'ArialMT';
+		font-size: 16px;
+		color: #000000;
+		letter-spacing: 0;
+		text-align: center;
+		margin-top:40px;
+		margin-bottom:32px;
+	}
+	.Testimonials_car{
+		// margin-bottom:17px;
+	}
+	.Testimonials{
+		margin-bottom: 36px;
+	}
+	.Testimonials_car_box{
+		float:left;
+		width:180px;
+		min-height:144px;
+		margin:0px 46px 0px 61px;
+		font-family: 'ArialMT';
+		font-size: 12px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 18px;
+		position: relative;
+		margin-bottom:17px;
+	}
+	.Testimonials_car_text{
+		font-family: 'ArialMT';
+		font-size: 12px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 18px;
+	}
+	.Testimonials_car_ico{
+		display: inline-block;
+		width:49px;
+		height:49px;
+		position:absolute;
+		left:-61px;
+	}
+	.person1{
+		background:url('../images/person1.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.person2{
+		background:url('../images/person2.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.person3{
+		background:url('../images/person3.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.person4{
+		background:url('../images/person4.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.person5{
+		background:url('../images/person5.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.person6{
+		background:url('../images/person6.png') no-repeat;
+		background-size: 100% 100%;
+	}
+
+	// score
+	.score{
+		background-image: linear-gradient(29deg, #FFCD3F 0%, #FFF767 100%);
+		width:100%;
+		height:108px;
+	}
+	.score_middle{
+		height:100%;
+	}
+	.score_box{
+		width:33%;
+		height:100%;
+		float:left;
+		// background:red;
+	}
+	.score_box_title{
+		font-family: 'Arial-BoldItalicMT';
+		font-size: 32px;
+		color: #000000;
+		letter-spacing: 0;
+		margin-top:20px;
+		font-style:italic;
+		font-weight: 800;
+		text-align: center;
+	}
+	.score_box_text{
+		font-family: 'Arial-ItalicMT';
+		font-size: 16px;
+		color: #000000;
+		letter-spacing: 0;
+		margin-top:10px;
+		font-style:italic;
+		text-align: center;
+	}
+	.stars{
+		height:28px;
+		width:155px;
+		margin: 28px auto 0px;
+		background:url('../images/stars.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.stars_text{
+		margin-top: 14px;
+	}
+
+	// How to loan
+	.HowToLoan{
+		background: #FBFBFB;
+		padding-bottom: 66px;
+	}
+	.HowToLoan_car{
+		margin-top:54px;
+	}
+	.HowToLoan_car_box{
+		width:250px;
+		float:left;
+		margin-left:33px;
+	}
+	.HowToLoan_car_ico{
+		display:inline-block;
+		width:74px;
+		height:74px;
+	}
+	.HowToLoan_car_title{
+		font-family: 'Arial-BoldMT';
+		font-size: 14px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 22px;
+		font-weight: 800;
+	}
+	.HowToLoan_car_text{
+		font-family:'ArialMT';
+		font-size: 14px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 22px;
+		margin-top:10px;
+	}
+	.just_minutes{
+		background:url('../images/just_minutes.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.Get_cash{
+		background:url('../images/Get_cash.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.discuss_your_application{
+		background:url('../images/discuss_your_application.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.AboutUs_text{
+		font-family: 'ArialMT';
+		font-size: 12px;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 18px;
+		text-align: left;
+	}
+	.AboutUs_table{
+		margin-top:17px;
+		margin-bottom: 60px;
+	}
+	.AboutUs_table table{
+		border: 1px solid #EEEEEE;
+		border-radius: 6px;
+		width:100%;
+		border-collapse: collapse;
+	}
+	.AboutUs_table table tr td{
+		padding:9px 20px;
+		border: 1px solid #EEEEEE;
+	}
+	.leftText{
+		// float: left;
+		display:inline-block;
+		width:40%;
+		text-align: left;
+		word-wrap: break-word; 
+		font-family: 'ArialMT';
+		font-size: 14px;
+		color: #2E3B3F;
+		letter-spacing: 0;
+	    float: left;
+	}
+	.rightText{
+		// float: right;
+		display:inline-block;
+		width:60%;
+		text-align: right;
+		word-wrap: break-word; 
+		font-family: 'ArialMT';
+		font-size: 14px;
+		color: #2E3B3F;
+		letter-spacing: 0;
+		float: right;
+	}
+
+	//header
+	.header_box{
+		width:100%;
+		height:68px;
+		background: rgba(0,0,0,0.30);
+	    position: fixed;
+	    z-index: 2;
+	}
+	.header_box_lg{
+		float:left;
+		width:50%;
+		height:100%;
+	}
+	.header_box_List{
+		float:right;
+		width:50%;
+		height:100%;
+	}
+	.header_nav{
+		display:block;
+	}
+	.header_nav li {
+		float: left;
+		padding: 0px 16px;
+		height: 68px;
+		line-height: 68px;
+		font-family: 'Arial-BoldMT';
+		font-size: 14px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+
+	}
+	.header_nav li a{
+		font-family: 'Arial-BoldMT';
+		color:#fff;
+		font-size: 14px;
+		font-weight: 800;
+	}
+	.header_phone{
+		padding:0px !important;
+		height:12px !important;
+		background:#fff;
+		width:1px;
+		margin-top:28px;
+	}
+
+	.header_advertising_box{
+		width:66.66666667%;
+		margin-left:16.66666667%;
+		padding-top:100px;
+	}
+	.header_advertising_left{
+		width:50%;
+		float:left;
+	}
+	.header_advertising_right{
+		width:43%;
+		float:left;
+	    padding-top: 80px;
+    	padding-left: 7%;
+	}
+	.header_advertising_left img{
+		width:100%;
+		height:100%;
+	}
+	.header_advertising_right p{
+		text-align: left;
+	}
+	// .header_advertising_right_text1{
+	// 	font-family:'Arial-BoldMT';
+	// 	font-size: 24px;
+	// 	color: #FFFFFF;
+	// 	letter-spacing: 0;
+	// 	margin-top:52px;
+	// }
+	.header_advertising_right_text2{
+		font-family: 'ArialMT';
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+	}
+	.header_advertising_right_text3{
+		font-family: 'PingFangSC-Regular';
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		margin-top:39px;
+	}
+	.header_advertising_right_text4{
+		font-family: 'ArialMT';
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		line-height: 25px;
+	}
+	.googleStore{
+		width:180px;
+		height:54px;
+		margin-top:41px;
+		background:url('../images/googleStore.png') no-repeat;
+		background-size: 100% 100%;
+	}
+	.swiperBox {
+	    width: 274px;
+	    margin: 0px;
+	    overflow: visible;
+	}
+	.swiperBox .Service_car_box{
+		margin-left: 0px;
+	}
+	.Service_middle{
+		overflow:hidden;
+		padding:0px 10px;
+		width: calc( 100% - 20px );
+	}
+
+	.TestimonialsBox{
+		width:287px;
+		margin: 0px;
+	    overflow: visible;
+	}
+	.Testimonials_car{
+		width:100%;
+	}
+	.CardListSY_prev{
+		width:29px;
+		height:22px;
+		background:url('../images/left_test.png') no-repeat;
+		background-size: 100% 100%;
+		margin-top: -44px;
+		margin-left: 11%;
+	}
+	.CardListSY_next{
+		width:29px;
+		height:22px;
+		background:url('../images/right_test.png') no-repeat;
+		background-size: 100% 100%;
+		margin-top: -44px;
+	    margin-right: 11%;
+	}
+	.HowToLoan_car_box_first{
+		margin-left:0px;
+	}
+	.tableSate2{
+		display:none;
+	}
+	.tableSate1{
+		display:block;
+	}
+	.TestimonialsswiperState1{
+		display:none;
+	}
+	.TestimonialsswiperState2{
+		display:block;
+	}
+
+	.header_box_lg{
+		display:inline-block;
+		text-align: center;
+	}
+	.CashKartTitle{
+		font-family: 'Arial-BoldMT';
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		height: 68px;
+		display: inline-block;
+		vertical-align: middle;
+	    line-height: 68px;
+	    padding-left:1.440%;
+	    padding-top:0px;
+	    padding-bottom: 0px;
+	    font-weight: 600;
+	}
+	.header_box_lg img{
+    	vertical-align: middle;
+    	display: inline-block;
+    	height:46px;
+    	width:46px;
+	}
+	.header_advertising_right_lg{
+		height:64px;
+		width:100%;
+		text-align: left;
+	}
+	.header_advertising_right_lg img{
+		vertical-align: middle;
+    	display: inline-block;
+    	width:64px;
+    	height:64px;
+	}
+	.header_advertising_right_CashKartText{
+		font-family: 'Arial-BoldMT';
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		height: 64px;
+		display: inline-block;
+		vertical-align: middle;
+	    line-height: 64px;
+	    padding-left:4%;
+	    margin:0px;
+	}
+
+@media screen and (min-width: 1600px) {
+	.advertising{
+		height:900px;
+		width:100%;
+	}
+	.header_advertising_box{
+		width:66.66666667%;
+		margin-left:16.66666667%;
+		padding-top:100px;
+	}
+	.middleBox {
+	    width: 1040px;
+	    margin: 0 auto;
+	}
+	.Service_car .Service_car_box{
+		width:292px;
+	}
+	.Service_car_title{
+		text-align: center;
+	}
+	.Service_car_text{
+		text-align: center;
+	}
+	.Testimonials_car_box{
+		width:255px;
+	}
+	.HowToLoan_car_box{
+		width:324px;
+	}
+	.swiperBox{
+		width:353px;
+	}
+	
+	
+}
+
+@media screen and (min-width: 992px) {
+	.header_advertising_box{
+		width:83.33333333%;
+		margin-left:8.33333333%;
+		padding-top:100px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.header_box_lg{
+		float:left;
+		width:50%;
+		height:100%;
+	}
+	.header_box_List{
+		float:right;
+		width:50%;
+		height:100%;
+	}
+}
+@media screen and (max-width: 832px) {
+	.header_advertising_box{
+		text-align: center;
+		width:100%;
+		margin-left:0px;
+	}
+	.header_advertising_left{
+		width:100%;
+		float:left;
+	}
+	.header_advertising_right{
+		width:100%;
+		float:left;
+	    padding-top: 80px;
+    	padding-left: 0%;
+	}
+	.header_advertising_left img{
+		width:80%;
+		height:80%;
+	}
+	.advertising{
+		height:auto;
+	}
+	.header_advertising_right p{
+		text-align: center;
+	}
+	.googleStore{
+	    margin: 40px auto;
+	}
+	.header_advertising_right{
+		padding-top:0px;
+	}
+	.header_box_lg{
+		float:left;
+		width:35%;
+		height:100%;
+	}
+	.header_box_List{
+		float:right;
+		width:65%;
+		height:100%;
+	}
+	.middleBox {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding: 0px;
+	}
+	.swiperBox {
+	    width: 280px;
+	    margin: 0 auto;
+	    overflow: visible;
+	}
+	.Service_car .Service_car_box{
+		margin-left: 15px !important;
+	}
+	.homeTitle{
+		text-align: center;
+	}
+	.TestimonialsBox{
+		width:287px;
+		margin: 0 auto;
+	    overflow: hidden;
+	}
+	
+	.Testimonials_car_box {
+	    margin: 0px 0px 0px 61px;
+	    width:auto;
+	}
+	.score{
+		height:auto;
+		padding-bottom: 30px;
+	}
+	.score_box {
+	    width: 100%;
+	    height: 100%;
+	    float: left;
+	}
+	.HowToLoan_car_box{
+		width:100%;
+		margin-left:0px;
+		margin-bottom: 20px;
+	}
+	.AboutUs_text{
+		padding:0px 30px;
+	}
+	.AboutUs_table{
+	    padding: 0px 30px;
+	}
+	
+	.TestimonialsswiperState2{
+		display:none;
+	}
+	.TestimonialsswiperState1{
+		display:block;
+	}
+	.header_advertising_right_lg{
+		text-align: center;
+		margin-top:20px;
+	}
+	.HowToLoan_car{
+		margin-top:0px;
+	}
+	.HowToLoan{
+		margin-bottom: 0px;
+	}
+	.advertising_bg{
+		background:url('../images/advertising_mb.jpg') no-repeat;
+		background-size: cover;
+	}
+
+
+}
+@media screen and (max-width: 740px) {
+	.header_box_lg{
+		float:left;
+		width:100%;
+		height:100%;
+	}
+	.header_box_List{
+		display:none;
+	}
+	.Service_car{
+		width:250px;
+	}
+	.tableSate1{
+		display:none;
+	}
+	.tableSate2{
+		display:block;
+	}
+}
+@media screen and (max-width: 500px) {
+	body{
+		overflow-x:hidden;
+	}
+	.CardListSY_prev{
+		margin-left: 0.19323671rem;
+	}
+	.CardListSY_next{
+	    margin-right: 0.19323671rem;
+	}
+	.homeTitle{
+		font-size: 0.53140097rem;
+	}
+	.Service_car_ico {
+	    width: 2.34299517rem;
+	    height: 2.70531401rem;
+	}
+	.Service_car_title{
+		font-size: 0.43478261rem;
+	}
+	.Service_car_text{
+		font-size: 0.38647343rem;
+	}
+	.Testimonials_title{
+		font-size: 0.38647343rem;
+	}
+	.score_box_title{
+		margin-top:0.48309179rem;
+		font-size: 0.77294686rem;
+		text-align: center;
+	}
+	.score_box_text{
+		margin-top:0.04830918rem;
+		font-size: 0.38647343rem;
+		text-align: center;
+	}
+	.score{
+		padding-bottom: 0.72463768rem;
+	}
+	.ServiceTitle{
+		padding-top:0.48309179rem;
+		padding-bottom: 0.38647343rem;
+	}
+	.Testimonials_title{
+		margin:0.72463768rem;
+		margin-bottom: 0.50724638rem;
+	}
+	.HowToLoan_car{
+		margin-top:0.0rem;
+	}
+	.howLoanTitle{
+		padding-top:0.84541063rem;
+		padding-bottom: 0.84541063rem;
+	}
+	.HowToLoan_car_ico{
+		width:2.70531401rem;
+		height:2.70531401rem;
+	}
+	.HowToLoan_car_box{
+		width:6.76328502rem;
+		margin:0 auto;
+		float:none;
+		margin-bottom: 1.06280193rem;
+	}
+	.HowToLoan_car_title{
+		font-family: 'Arial-BoldMT';
+		font-size: 0.38647343rem;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 0.53140097rem;
+		margin-top:0.24154589rem;
+	}
+	.HowToLoan_car_text{
+		font-size: 0.38647343rem;
+		line-height: 0.53140097rem;
+		margin-top:0.28985507rem
+	}
+	.HowToLoan{
+		padding-bottom: 18px;
+	}
+	.aboutUsTitle{
+		padding-top:0.48309179rem;
+		padding-bottom:0.43478261rem;
+	}
+	.AboutUs_text{
+		font-size: 0.33816425rem;
+		color: #000000;
+		letter-spacing: 0;
+		line-height: 0.62801932rem;
+	}
+	.AboutUs_table{
+		margin-top:0.43478261rem;
+	}
+	.leftText{
+		font-size: 0.33816425rem;
+	}
+	.rightText{
+		font-size: 0.33816425rem;
+	}
+	
+	.advertising_bg{
+		background:url('../images/advertising_mb.jpg') no-repeat;
+		background-size: cover;
+	}
+	.header_advertising_box{
+		padding-top:1.54589372rem;
+	}
+	.header_box_lg img{
+    	width:46px;
+    	height:46px;
+	}
+	.header_box_lg{
+		width:50%;
+	}
+	.header_advertising_right_lg{
+		margin-top:0.48309179rem;
+		height:1.44927536rem;
+		width:100%;
+		text-align: center;
+	}
+	.header_advertising_right_lg img{
+		vertical-align: middle;
+    	display: inline-block;
+    	width:1.44927536rem;
+    	height:1.44927536rem;
+	}
+	.header_advertising_right_CashKartText{
+		font-family: 'Arial-BoldMT';
+		font-size: 0.57971014rem;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		height: 1.44927536rem;
+		display: inline-block;
+		vertical-align: middle;
+	    line-height: 1.44927536rem;
+	    padding-left:4%;
+	}
+	// .header_advertising_right_text1{
+	// 	margin-top:0.43478261rem;
+	// }
+	.header_advertising_right_text2{
+		margin-top:0.43478261rem;
+		font-size: 0.38647343rem;
+	}
+	.header_advertising_right_text3{
+		margin-top:0.53140097rem;
+		font-size: 0.38647343rem;
+	}
+	.header_advertising_right_text4{
+		font-size: 0.38647343rem;
+	}
+	.googleStore{
+		margin:0.82125604rem auto 1.69082126rem;
+	    width: 4.34782609rem;
+    	height: 1.30434783rem;
+	}
+	.header_advertising_right p{
+	    word-wrap: break-word;
+    	padding: 0px 12px;
+	}
+	.AboutUs_text{
+		padding:0px 0.72463768rem;
+		text-align: center;
+	}
+	.AboutUs_table{
+		margin-bottom: 0.96618357rem;
+	}
+	.CashKartTitle{
+		padding-left:5%;
+	}
+}
+@media screen and (max-width: 414px) {
+	.CardListSY_prev{
+		margin-left: 0px;
+	}
+	.CardListSY_next{
+	    margin-right: 0px;
+	}
+
+}
+@media screen and (max-width: 320px) {
+	.TestimonialsBox{
+		width:210px;
+		margin-bottom: 20px;
+	}
+	.swiperBox{
+		width:220px;
+	}
+	.Service_car .Service_car_box{
+		width:170px;
+		min-height: 380px;
+	}
+	.Testimonials_car_box{
+		margin:61px 0px 0px 0px;
+	}
+	.Testimonials_car_ico {
+	    display: inline-block;
+	    width: 49px;
+	    height: 49px;
+	    position: absolute;
+	    left: 50%;
+	    top: -61px;
+	    margin-left: -24.5px;
+	}
+}

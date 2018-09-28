@@ -1,0 +1,200 @@
+.moduleTitle{
+	font-size: 0.57971014rem;
+	color: #2E3B3F;
+	letter-spacing: 0;
+	margin-bottom:1.03864734rem;
+}
+.moduleOne{
+	padding-top:33px;
+	padding-bottom:20px;
+
+}
+.moduleTitle{
+	font-size: 0.57971014rem;
+	padding-top:20px;
+	padding-left:20px;
+}
+.moduleTwo_littleTitle{
+	font-size: 0.43478261rem;
+	margin-bottom:20px;
+}
+.EsTitleList{
+	display:inline-block;
+	width:64px;
+	height:64px;
+	// border-radius: 50%;
+	background: #22B3DF;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+    position: absolute;
+    left: 0px;
+    top:-8px;
+
+}
+.module_Es_List_Lg{
+	position:absolute;
+	height:44px;
+	width:4px;
+}
+.listCL{
+	width:4px;
+	height:4px;
+	background: #FFD717;
+	margin-bottom: 6px;
+}
+.last_listCL{
+	margin-bottom: 0px;
+}
+.moduleTwoLg1{
+	top:60px;
+	left:50px;
+}
+.moduleTwoLg2{
+	top:60px;
+	left:50px;
+}
+.module_Es_List_Title{
+	margin-bottom: 0.14492754rem;
+	letter-spacing: 0;
+    padding-left:80px;
+
+    font-family: 'PingFangSC-Regular';
+	font-size: 16px;
+	color: #24253D;
+	letter-spacing: 0;
+}
+.module_Es_List_Content{
+	margin-left:80px;
+	font-family: 'PingFangSC-Regular';
+	font-size: 0.33816425rem;
+	color: #6A6B7F;
+	letter-spacing: 0;
+	line-height: 0.53140097rem;
+}
+.module_Es_List{
+	margin-bottom:70px;
+	padding:0.0rem 20px;
+	// min-height: 1.54589372rem;
+	position: relative;
+}
+.oneLg{
+	background: url(../images/Minute_Application.png) no-repeat;
+	background-size: contain;
+}
+.twoLg{
+	background: url(../images/just_minutes.png) no-repeat;
+	background-size: contain;
+}
+.threeLg{
+	background: url(../images/Get_cash.png) no-repeat;
+	background-size: contain;
+}
+.getBtn{
+	margin-top:0.96618357rem;
+	margin-bottom: 1.44927536rem;
+}
+.howWork{
+	color:#22B3DF !important;
+	border-bottom: 3px solid #22B3DF;
+}
+@media screen and (max-width: 320px) {
+	.moduleTwoLg1{
+		top:65px !important;
+		left:50px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.moduleTwoLg1{
+		top:58px;
+		left:50px;
+	}
+	.moduleTwoLg2{
+		top:68px;
+		left:50px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.moduleTitle{
+		font-size: 42px;
+		color: #2E3B3F;
+		letter-spacing: 0;
+		margin-bottom:62px;
+	}
+	.moduleOne{
+		padding-top:70px;
+		padding-bottom:20px;
+
+	}
+	.moduleTitle{
+		font-size: 42px;
+		padding-top:20px;
+		padding-left:20px;
+	}
+	.moduleTwo_littleTitle{
+		font-size: 18px;
+		margin-bottom:20px;
+	}
+	.EsTitleList{
+		display:inline-block;
+		width:64px;
+		height:64px;
+		// border-radius: 50%;
+		background: #22B3DF;
+		font-size: 18px;
+		line-height: 40px;
+		text-align: center;
+		color:#fff;
+	    position: absolute;
+	    left: 0px;
+		top: -8px;
+
+	}
+	// .module_Es_List_Lg{
+	// 	width:45px;
+	// 	height:45px;
+	// 	float:right;
+	// 	background-size: 100% 100%;
+	// 	margin-right: 20px;
+	// }
+	.module_Es_List_Title{
+    	margin-bottom: 2px;
+	    font-size: 18px;
+	    color: #2E3B3F;
+		letter-spacing: 0;
+	    font-weight: 800;
+	    padding-left:80px;
+	}
+	.module_Es_List_Content{
+		font-size: 14px;
+		color: #494949;
+		margin-left:80px;
+	}
+	.module_Es_List{
+		margin-bottom:70px;
+		padding-left:18px;
+		min-height: 50px;
+	}
+	.oneLg{
+		background: url(../images/Minute_Application.png) no-repeat;
+		background-size: contain;
+	}
+	.twoLg{
+		background: url(../images/just_minutes.png) no-repeat;
+		background-size: contain;
+	}
+	.threeLg{
+		background: url(../images/Get_cash.png) no-repeat;
+		background-size: contain;
+	}
+	.howWork{
+		color:#22B3DF !important;
+    	border-bottom: 3px solid #22B3DF;
+	}
+	.getBtn{
+		margin-top:0px;
+		margin-left: 22px;
+	}
+}
